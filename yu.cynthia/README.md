@@ -4,5 +4,9 @@
 
 ### Important Links 
 
-- https://cynthiayu.com
-- https://cynthiayu.com/aau/wnm608/yu.cynthia
+- http://cynthiayu.com
+- http://cynthiayu.com/aau/wnm608/yu.cynthia
+
+### Recipe
+
+- http://cynthiayu.com/aau/wnm608/yu.cynthia/recipe/index.html

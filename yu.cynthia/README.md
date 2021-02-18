@@ -5,4 +5,4 @@
 ### Important Links 
 
 - https://cynthiayu.com
-_ https://cynthiayu.com/aau/wnm608/yu.cynthia
+- https://cynthiayu.com/aau/wnm608/yu.cynthia

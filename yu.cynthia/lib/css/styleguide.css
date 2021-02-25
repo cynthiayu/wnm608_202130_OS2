@@ -1,0 +1,173 @@
+/* CSS RESETS */
+
+*, *::before, *::after {
+   box-sizing:border-box;
+}
+
+:root {
+   --color-neutral-light:#fbfbfb;
+   --color-neutral-medium:#c19f95;
+   --color-neutral-dark:#3b3634;
+
+   --color-white:#f0f0f0;
+   --color-black:#3b3b3b;
+
+
+   --header-height:4rem;
+
+
+   --font-sans: Arial, "Open Sans", sans-serif;
+   --font-serif: Cambria, Georgia, "Times New Roman", serif;
+}
+
+body {
+   margin:0;
+   font-size:100%;
+   font-family:var(--font-sans);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family:var(--font-sans);
+}
+
+a {
+   color:inherit;
+   font-weight: ;
+   text-decoration:none;
+}
+a:hover {
+   text-decoration:underline;
+}
+
+
+
+
+/* LAYOUT CLASSES */
+.container {
+   max-width:1000px;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+
+.hidden { display:none; }
+
+
+.display-flex { display:flex; }
+.display-block { display:block; }
+.display-inline-flex { display:inline-flex; }
+.display-inline-block { display:inline-block; }
+
+.flex-stretch { flex: 1 1 auto; }
+.flex-none { flex: none; }
+
+.flex-align-center { align-items:center; }
+.flex-justify-center { justify-content:center; }
+
+
+
+
+
+/* COMPONENT CLASSES */
+
+.navbar {
+   background-color:var(--color-neutral-dark);
+   color:var(--color-white);
+   line-height:var(--header-height);
+}
+.navbar h1 {
+   font-family:var(--font-sans);
+   font-size:2em;
+   margin:0;
+}
+
+.nav ul,
+.navbar ul {
+   list-style-type:none;
+   margin:0;
+   padding-left:0;
+}
+
+.navbar a {
+   display:block;
+   padding:0 0.8em;
+}
+
+
+
+
+/* VIEW WINDOW */
+
+.view-window-opening{
+   position:relative;
+   overflow:hidden;
+
+   background-size:cover;
+   background-position:center;
+   background-attachment:fixed;
+
+   height:75vh;
+}
+.view-window-content{
+   position:relative;
+   overflow:hidden;
+
+   background-size:cover;
+   background-position:center;
+   background-attachment:fixed;
+
+   height:30vh;
+}
+.view-window-footer{
+   position:relative;
+   overflow:hidden;
+
+   background-size:cover;
+   background-position:center;
+   background-attachment:fixed;
+
+   height:30vh;
+}
+
+
+
+
+
+/* CARD */
+
+.card {
+   
+   padding:1em;
+
+   margin-bottom:1em;
+   margin-top:1em;
+
+   position:relative;
+   overflow:hidden;
+}
+   .card.soft {
+      border-radius:0.5em;
+      box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+   }
+   .card.hard {
+      border-radius:0.2em;
+      border:2px solid var(--color-neutral-medium);
+   }
+   .card.dark {
+      background-color:var(--color-neutral-dark);
+      color:var(--color-white);
+   }
+   .card.medium {
+      background-color:var(--color-neutral-medium);
+   }
+
+   .card.flat {
+      padding:0;
+   }
+   

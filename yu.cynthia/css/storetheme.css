@@ -1,0 +1,9 @@
+:root {
+  --color-neutral-light:#fbfbfb;
+   --color-neutral-medium:#c19f95;
+   --color-neutral-dark:#3b3634;
+}
+
+body {
+	background-color: #efefef;;
+}

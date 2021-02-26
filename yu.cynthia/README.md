@@ -1,6 +1,6 @@
-#Cynthia Yu
+# Cynthia Yu
 
-##Store Website 
+## Store Website 
 
 ### Important Links 
 
@@ -10,3 +10,4 @@
 ### Recipe
 
 - http://cynthiayu.com/aau/wnm608/yu.cynthia/recipe/index.html
+

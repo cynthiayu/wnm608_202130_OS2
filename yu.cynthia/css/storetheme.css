@@ -1,9 +1,17 @@
 :root {
   --color-neutral-light:#fbfbfb;
    --color-neutral-medium:#c19f95;
-   --color-neutral-dark:#3b3634;
+   --color-neutral-dark:#754e3e;
 }
 
 body {
 	background-color: #efefef;;
+}
+
+
+
+@media (max-width:500px) {
+   :root {
+      --header-height:2rem;
+   }
 }

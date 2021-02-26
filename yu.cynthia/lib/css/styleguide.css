@@ -7,7 +7,7 @@
 :root {
    --color-neutral-light:#fbfbfb;
    --color-neutral-medium:#c19f95;
-   --color-neutral-dark:#3b3634;
+   --color-neutral-dark:#754e3e;
 
    --color-white:#f0f0f0;
    --color-black:#3b3b3b;
@@ -16,8 +16,8 @@
    --header-height:4rem;
 
 
-   --font-sans: Arial, "Open Sans", sans-serif;
-   --font-serif: Cambria, Georgia, "Times New Roman", serif;
+   --font-sans: Optima, Candara, "Open Sans", sans-serif;
+   --font-serif: Palatino, Georgia, Cambria, serif;
 }
 
 body {
@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-   font-family:var(--font-sans);
+   font-family:var(--font-serif);
 }
 
 a {
@@ -69,7 +69,9 @@ a:hover {
 
 .flex-align-center { align-items:center; }
 .flex-justify-center { justify-content:center; }
-
+.justify-content-flex-start { justify-content: flex-start; }
+.justify-content-flex-end { justify-content: flex-end; }
+.justify-content-center { justify-content: center; }
 
 
 
@@ -99,6 +101,15 @@ a:hover {
    padding:0 0.8em;
 }
 
+.header {
+	top:0;
+	left:0;
+	margin:0 auto;
+	min-width: 940px;
+	align-items: center;
+	position: relative;
+
+}
 
 
 
@@ -170,4 +181,15 @@ a:hover {
    .card.flat {
       padding:0;
    }
+
+   .card>:first-child { margin-top:0; }
+   .card>:last-child { margin-bottom:0; }
    
+
+
+   /* WELL */
+   .well {
+      background-color:var(--color-neutral-medium);
+      padding:0.5em;
+      border-radius:0.5em;
+   }

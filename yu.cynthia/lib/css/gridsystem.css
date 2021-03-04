@@ -18,6 +18,10 @@
    .gap.small { --grid-gap:0.5em; }
    .gap.large { --grid-gap:2em; }
 
+.grid.vertical-stretch{
+	align-items: stretch;
+}
+
 
 
 

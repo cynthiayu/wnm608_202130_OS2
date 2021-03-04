@@ -10,4 +10,5 @@
 ### Recipe
 
 - http://cynthiayu.com/aau/wnm608/yu.cynthia/recipe/index.html
+- http://cynthiayu.com/aau/wnm608/yu.cynthia/index.html
 

@@ -6,9 +6,9 @@
 
 - http://cynthiayu.com
 - http://cynthiayu.com/aau/wnm608/yu.cynthia
+- http://cynthiayu.com/aau/wnm608/yu.cynthia/styleguide
 
-### Recipe
 
-- http://cynthiayu.com/aau/wnm608/yu.cynthia/recipe/index.html
+### Project Links 
+- http://cynthiayu.com/aau/wnm608/yu.cynthia/recipe
 - http://cynthiayu.com/aau/wnm608/yu.cynthia/index.html
-

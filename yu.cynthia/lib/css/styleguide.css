@@ -221,89 +221,52 @@ a.text-link {
 /* BUTTON */
 .button {
    display: block;
-   border: 0.1em solid #C0BEAC;
+   border: 0.1em solid #c19f95;
    border-radius: 0.2em;
    padding: 1.5em 5em;
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 4em;
-   background-color: var(--color-neutral-light);
-   width: 240px;
-   height: 80px;
-   font-size: var(--font-size-sm);
-   
+   background-color: var(--color-neutral-dark);
+   color:var(--color-white);
+   transition: .6s;
+   overflow: hidden;
+}
+
+.button:focus{
+   outline: none;
 }
 
 .button:hover {
-  background-color: #4B392A;
-  color: white;
+  background-color: var(--color-neutral-medium);
+  cursor: pointer;
+}
+
+.button.outline{
+   border:1px solid var(--color-neutral-dark);
+   background-color: var(--color-white);
+   color: var(--color-neutral-dark);
+}
+
+.button.outline:hover{
+   border:1px solid var(--color-neutral-medium);
+   background-color: var(--color-neutral-medium);
+   color: var(--color-white);
+}
+
+.button.cancel{
+   border:1px solid var(--color-neutral-dark);
+   background-color: var(--color-white);
+   color: var(--color-neutral-dark);
+}
+
+.button.cancel:hover{
+   border:1px solid var(--color-neutral-medium);
+   background-color: var(--color-white);
+   color: var(--color-neutral-medium);
 }
 
 
-.button:hover {
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.buttoncenter {
-   display: block;
-   border: 0.1em solid #C0BEAC;
-   border-radius: 0.2em;
-   padding: 1.3em 0em 0em 0em;
-   margin-left: auto;
-   margin-right: auto;
-   background-color: var(--color-neutral-light);
-}
-
-.seeall {
-   display: block;
-   border: 0.1em solid #C0BEAC;
-   border-radius: 0.2em;
-   padding: 1.3em 4em;
-   margin-left: 0;
-   margin-top: 2.5em;
-   display: inline-block;
-   background-color: var(--color-neutral-light);
-}
-
-.seeall:hover {
-  background-color: #4B392A;
-  color: white;
-}
-
-.button.halfround {
-   display: block;
-   border: 0.1em solid #C0BEAC;
-   border-radius: 1em;
-   padding: 1.3em 4em;
-   margin-left: 3em;
-   margin-top: 2.5em;
-   display: inline-block;
-   background-color: var(--color-neutral-light);
-}
-
-.button.halfround:hover {
-   background-color: #4B392A;
-    color: white;
-}
-
-
-.button.round {
-   display: block;
-   border: 0.1em solid #C0BEAC;
-   border-radius: 2em;
-   padding: 1.3em 4em;
-   margin-left: 3em;
-   margin-top: 2.5em;
-   display: inline-block;
-   background-color: var(--color-neutral-light);
-}
-
-.button.round:hover {
-   background-color: #4B392A;
-    color: white;
-}
 
 
 

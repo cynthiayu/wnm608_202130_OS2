@@ -328,8 +328,14 @@ a.text-link {
     .card.light {
       background-color:var(--color-neutral-light);
    }
-   .card.rainbow {
-      background-image: linear-gradient(130deg, #efc4df, #a2a2d4, #93e8c6, #eaa16c);
+   .card.gradient {
+      background-image: linear-gradient(130deg, #b4a7d6ff, #f9f9f9ff, #eeff41ff, #dd9247ff);
+   }
+   .card.trio-gradient {
+      background-image: linear-gradient(140deg, #eeff41ff, #b4a7d6ff, #dd9247ff);
+   }
+   .card.dual-gradient {
+      background-image: linear-gradient(140deg, #edd9c5ff, #eeff41ff);
    }
    .card.flat {
       box-shadow: none;

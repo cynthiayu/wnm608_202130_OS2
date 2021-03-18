@@ -30,24 +30,27 @@
 
 
 <div class="container">
-      <div class="card soft">
+      <div class="card flat">
          <h2>Table of Contents</h2>
 
          <ul class="nav toc">
             <li><a href="styleguide/#typography">Typography</a></li>
             <li><a href="styleguide/#color">Color</a></li>
             <li><a href="styleguide/#grid">Grid</a></li>
-            <li><a href="styleguide/#card">Card</a></li>
-            <li><a href="styleguide/#buttons">Buttons</a></li>
+            <li><a href="styleguide/#cards">Cards</a></li>
+            <li><a href="styleguide/#product-cards">Product Cards</a></li>
             <li><a href="styleguide/#navigations">Navigations</a></li>
-            <li><a href="styleguide/#tables">Tables</a></li>
             <li><a href="styleguide/#forms">Forms</a></li>
+            <li><a href="styleguide/#buttons">Buttons</a></li>
+            <li><a href="styleguide/#tables">Tables</a></li>
+            
          </ul>
       </div>
    </div>
+   <br><br>
 
    <div class="container" id="typography">
-      <div class="card soft">
+      <div class="card flat">
          <h2>Typography</h2>
 
          <!-- h$*6{Heading $} -->
@@ -90,27 +93,53 @@
       </div>
    </div>
 
-   <div class="container" id="card">
-      <div class="card soft">
+   <br><br>
+
+   <div class="container" id="color">
+      <div class="card flat">
          <h2>Color</h2>
+     <div class="grid gap medium vertical-stretch">
+     <div class="col-lg-3 col-md-6 col-xs-12"> 
          <div style="background-color:var(--color-neutral-lighter)">Color Neutral Lighter</div>
+     </div>
+     <div class="col-lg-3 col-md-6 col-xs-12"> 
          <div style="background-color:var(--color-neutral-light)">Color Neutral Light</div>
+     </div>
+     <div class="col-lg-3 col-md-6 col-xs-12"> 
          <div style="background-color:var(--color-neutral-medium)" style="color:var(--color-white)">Color Neutral Medium</div>
+     </div>
+     <div class="col-lg-3 col-md-6 col-xs-12"> 
          <div style="background-color:var(--color-neutral-dark)" style="color:var(--color-white)">Color Neutral Dark</div>
-
+     </div>
+         
+     <div class="col-lg-4 col-md-6 col-xs-12" >
          <div style="background-color:var(--color-main-light)">Color Main Light</div>
+     </div>
+     <div class="col-lg-4 col-md-6 col-xs-12" >
          <div style="background-color:var(--color-main-medium)">Color Main Medium</div>
+     </div>
+     <div class="col-lg-4 col-md-6 col-xs-12" >
          <div style="background-color:var(--color-main-dark)" style="color:var(--color-white)">Color Main Dark</div>
+     </div>
 
+     <div class="col-lg-4 col-md-6 col-xs-12" >
          <div style="background-color:var(--color-sub-light)">Color Sub Light</div>
+     </div>
+     <div class="col-lg-4 col-md-6 col-xs-12" >
          <div style="background-color:var(--color-sub-medium)">Color Sub Medium</div>
+     </div>
+     <div class="col-lg-4 col-md-6 col-xs-12" >
          <div style="background-color:var(--color-sub-dark)" style="color:var(--color-white)">Color Sub Dark</div>
+     </div>
       </div>
+  </div>
    </div>
+
+   <br><br>
 
 
    <div class="container" id="grid">
-      <div class="card soft">
+      <div class="card flat">
          <h2>Grid</h2>
 
          <h3>Basic Grid Structure</h2>
@@ -198,43 +227,172 @@
    </div>
 
     
+<br><br>
 
+	<div class="container" id="cards">
+      <div class="card flat">
 
-	<div class="container" id="card">
-      <div class="card soft">
          <h2>Card</h2>
-
+<div class="grid gap medium vertical-stretch">
+    <div class="col-lg-3 col-md-6 col-xs-12">    
          <h3>Standard Card</h3>
+         <div class="display-flex flex-justify-center">
          <div class="card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus error labore porro. Rem, ipsa fuga soluta nesciunt recusandae iusto minus.</div>
+     </div>
+    </div>
 
+     <div class="col-lg-3 col-md-6 col-xs-12">
          <h3>Light Card</h3>
+         <div class="display-flex flex-justify-center">
          <div class="card light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus error labore porro. Rem, ipsa fuga soluta nesciunt recusandae iusto minus.</div>
+     </div>
+    </div>
 
-
+    <div class="col-lg-3 col-md-6 col-xs-12"> 
          <h3>Medium Card</h3>
+         <div class="display-flex flex-justify-center">
          <div class="card medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus error labore porro. Rem, ipsa fuga soluta nesciunt recusandae iusto minus.</div>
-
+     </div>
+    </div>
+	<div class="col-lg-3 col-md-6 col-xs-12"> 
          <h3>Dark Card</h3>
+         <div class="display-flex flex-justify-center">
          <div class="card dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus error labore porro. Rem, ipsa fuga soluta nesciunt recusandae iusto minus.</div>
-
+     </div>
+    </div>
+	<div class="col-lg-3 col-md-6 col-xs-12"> 
          <h3>Soft Standard Card</h3>
+         <div class="display-flex flex-justify-center">
          <div class="card soft">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus error labore porro. Rem, ipsa fuga soluta nesciunt recusandae iusto minus.</div>
-
+     </div>
+    </div>
+	<div class="col-lg-3 col-md-6 col-xs-12"> 
          <h3>Soft Lighter Card</h3>
+         <div class="display-flex flex-justify-center">
          <div class="card light soft">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus error labore porro. Rem, ipsa fuga soluta nesciunt recusandae iusto minus.</div>
-
+     </div>
+    </div>
+	<div class="col-lg-3 col-md-6 col-xs-12"> 
          <h3>Soft Medium Card</h3>
+         <div class="display-flex flex-justify-center">
          <div class="card medium soft">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus error labore porro. Rem, ipsa fuga soluta nesciunt recusandae iusto minus.</div>
-
+     </div>
+    </div>
+	<div class="col-lg-3 col-md-6 col-xs-12"> 
          <h3>Soft Dark Card</h3>
+         <div class="display-flex flex-justify-center">
          <div class="card dark soft">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus error labore porro. Rem, ipsa fuga soluta nesciunt recusandae iusto minus.</div>
-
-         <h3>Soft Rainbow Card</h3>
-         <div class="card rainbow soft">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus error labore porro. Rem, ipsa fuga soluta nesciunt recusandae iusto minus.</div>
+     </div>
+    </div>
+	<div class="col-lg-3 col-md-6 col-xs-12"> 
+         <h3>Gradient Card</h3>
+         <div class="display-flex flex-justify-center">
+         <div class="card gradient ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus error labore porro. Rem, ipsa fuga soluta nesciunt recusandae iusto minus.</div>
+     </div>
+    </div>
+	<div class="col-lg-3 col-md-6 col-xs-12"> 
+         <h3>Trio Gradient Card</h3>
+         <div class="display-flex flex-justify-center">
+         <div class="card trio-gradient ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus error labore porro. Rem, ipsa fuga soluta nesciunt recusandae iusto minus.</div>
+     </div>
+    </div>
+	<div class="col-lg-3 col-md-6 col-xs-12"> 
+         <h3>Dual Gradient Card</h3>
+         <div class="display-flex flex-justify-center">
+         <div class="card dual-gradient ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus error labore porro. Rem, ipsa fuga soluta nesciunt recusandae iusto minus.</div>
+     </div>
+    </div>
+</div>
       </div>
    </div>
 
-  
+      <div class="container" id="product-cards">
+      <div class="card flat">
+
+<br><br>
+   <h2>Product cards</h2>
+		<div class="grid gap medium">
+			<div class="col-lg-3 col-md-6 col-xs-12">
+				<p class="text-center">Card</p>
+				<div class="card">
+					<div class="display-flex flex-justify-center">
+						<img class="image-cover" src="img/fashion/web7.jpg" alt="">
+					</div>
+					<div class="">
+						<p class="product-name">Title</p>
+						<p class="price ">$00.00</p>
+					</div>
+				</div>
+			</div>		
+			<div class="col-lg-3 col-md-6  col-xs-12">
+				<p class="text-center">Card flat</p>
+				<div class="card flat">
+					<div class="display-flex flex-justify-center">
+						<img class="image-cover" src="img/fashion/web2.jpg" alt="">
+					</div>
+					<div class="">
+						<p class="product-name">Title</p>
+						<p class="price">$00.00</p>
+					</div>
+				</div>
+			</div>		
+			<div class="col-lg-3 col-md-6 col-xs-12">
+				<p class="text-center">Card hard</p>
+				<div class="card hard">
+					<div class="display-flex flex-justify-center">
+						<img class="image-cover " src="img/fashion/web3.jpg" alt="">
+					</div>
+					<div class="">
+						<p class="product-name">Title</p>
+						<p class="price">$00.00</p>
+					</div>
+				</div>
+			</div>		
+			<div class="col-lg-3 col-md-6 col-xs-12">
+				<p class="text-center">Card</p>
+				<div class="card highlight">
+					<div class="display-flex flex-justify-center">
+						<img class="image-cover " src="img/fashion/web9.jpg" alt="">
+					</div>
+					<div class="">
+						<p class="product-name">Title </p>
+						<p class="price">$00.00</p>
+					</div>
+				</div>
+			</div>		
+		</div>
+
+	
+		
+		<h2 class="top-margin-md">Medium cards</h2>
+		<div class="grid gap medium vertical-stretch">	
+			<div class="card col-lg-4 col-md-6 col-xs-12" >
+				<div class="display-flex flex-justify-center">
+					<img class="image-cover " src="img/fashion/web1.jpg" alt="">
+				</div>
+				<p class="text-bold">Title here</p>
+				<p class="text-body ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officia ducimus ipsam ipsum itaque recusandae nulla beatae dicta nobis labore?</p>
+			</div>
+			<div class="card col-lg-4 col-md-6 col-xs-12"  >
+				<div class="display-flex flex-justify-center">
+					<img class="image-cover " src="img/fashion/web4.jpg" alt="">
+				</div>
+				<p class="text-bold">Title here</p>
+				<p class="text-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officia ducimus ipsam ipsum itaque recusandae nulla beatae dicta nobis labore?</p>
+			</div>
+			<div class="card col-lg-4 col-md-6 col-xs-12"  >
+				<div class="display-flex flex-justify-center">
+					<img class="image-cover " src="img/fashion/web8.jpg" alt="">
+				</div>
+				<p class="text-bold">Title here</p>
+				<p class="text-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officia ducimus ipsam ipsum itaque recusandae nulla beatae dicta nobis labore?</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+ <br><br> 
 
    <script>
 const makeNav = (classes='') => {
@@ -253,7 +411,7 @@ const makeNav = (classes='') => {
 
 
    <div class="container" id="navigations">
-      <div class="card soft">
+      <div class="card flat">
          <h2>Navigations</h2>
 
          <h3>Basic Nav</h3>
@@ -286,6 +444,9 @@ const makeNav = (classes='') => {
             </div>
          </div>
 
+
+         <h3>Breadcrumb Nav</h3>
+         <script>makeNav(" crumbs")</script>
 
 <!-- 
            <h3>Flex Nav</h3>
@@ -322,7 +483,7 @@ const makeNav = (classes='') => {
 
          <h3>Navbar</h3>
          <header class="navbar">
-            <div class="container display-flex flex-align-center">
+            <div class="container display-flex flex-align-center" >
                <div class="flex-none">
                   <h1>Title</h1>
                </div>
@@ -374,74 +535,15 @@ const makeNav = (classes='') => {
 
 
   
-  <div class="container">
-      <div class="card soft">
-         <h3>Breadcrumb Nav</h3>
-         <script>makeNav(" crumbs")</script>
-      </div>
-   </div>
 
+         
+  <br><br>
 
-<script>
-const makeTable = (classes='') => {
-   const head = ['ID','Office','Name','Email','Phone'];
-   const body = [
-      ['522',"Hamilton Cline",'hcline@academyart.edu','555-2424'],
-      ['512',"Fred McHale",'fmchale@academyart.edu','555-2424'],
-      ['522',"Michael Catanzaro",'mcatanzaro@academyart.edu','555-2424'],
-      ['514',"Andrea Pimentel",'apimentel@academyart.edu','555-2424'],
-      ['516',"DC Scarpelli",'dscarpelli@academyart.edu','555-2424'],
-   ];
-   document.write(`
-   <table class="${classes}">
-      <thead><tr>${head.reduce((r,o,i,a)=>r+`<th>${o}</th>`,'')}</tr></thead>
-      <tbody>
-         ${body.reduce((r,o,i,a)=>r+
-            `<tr>${[i+1,...o].reduce((r,o,i,a)=>r+`<td>${o}</td>`,'')}</tr>`
-         ,'')}
-      </tbody>
-   </table>
-   `)
-}
-</script>
-
-
-
-
-   <div class="container" id="tables">
-      <div class="card soft">
-         <h2>Tables</h2>
-
-         <h3>Standard Table</h3>
-         <script>makeTable("table")</script>
-
-         <h3>Striped Table</h3>
-         <script>makeTable("table striped")</script>
-
-         <h3>Lined Hoizontal Table</h3>
-         <script>makeTable("table lined horizontal")</script>
-
-          <h3>Lined Vertical Table</h3>
-         <script>makeTable("table lined vertical")</script>
-
-         <h3>Lined both Table</h3>
-         <script>makeTable("table lined horizontal vertical")</script>
-
-         <h3>Lined outline Table</h3>
-         <script>makeTable("table lined outline")</script>
-
-         <h3>Lined outline striped Table</h3>
-         <script>makeTable("table lined outline striped")</script>
-
-         <h3>Lined all Table</h3>
-         <script>makeTable("table lined all")</script>
-      </div>
-   </div>
 
 
 
   <div class="container" id="forms">
-      <div class="card soft">
+      <div class="card flat">
          <h2>Forms</h2>
 
          <form action="" method=""></form>
@@ -501,21 +603,23 @@ const makeTable = (classes='') => {
             <input type="search" class="hotdog" placeholder="Search">
          </form>
 
-         <form class="hotdog">
+        <!--  <form class="hotdog">
             <div class="flex-stretch">
                <input type="search" placeholder="Search">
             </div>
             <div class="flex-none">
                <img src="img/icon/search.svg" alt="" class="icon">
-            </div>
+            </div> --> 
          </form>
 
 
       </div>
    </div>
 
+<br><br>
+
     <div class="container" id="buttons">
-   		<div class="soft card">
+   		<div class="soft flat">
    			<h2>Buttons</h2>
    			<h3>Hovers</h3>
    		
@@ -546,60 +650,70 @@ const makeTable = (classes='') => {
 		
    		</div>
    </div>
+<script>
+const makeTable = (classes='') => {
+   const head = ['ID','Office','Name','Email','Phone'];
+   const body = [
+      ['522',"Hamilton Cline",'hcline@academyart.edu','555-2424'],
+      ['512',"Fred McHale",'fmchale@academyart.edu','555-2424'],
+      ['522',"Michael Catanzaro",'mcatanzaro@academyart.edu','555-2424'],
+      ['514',"Andrea Pimentel",'apimentel@academyart.edu','555-2424'],
+      ['516',"DC Scarpelli",'dscarpelli@academyart.edu','555-2424'],
+   ];
+   document.write(`
+   <table class="${classes}">
+      <thead><tr>${head.reduce((r,o,i,a)=>r+`<th>${o}</th>`,'')}</tr></thead>
+      <tbody>
+         ${body.reduce((r,o,i,a)=>r+
+            `<tr>${[i+1,...o].reduce((r,o,i,a)=>r+`<td>${o}</td>`,'')}</tr>`
+         ,'')}
+      </tbody>
+   </table>
+   `)
+}
+</script>
 
-    <div class="container">
-      <div class="card soft">
-         <h2>Product Figure</h2>
+<br><br>
 
-         <figure class="product">
-            <div class="product-image">
-               <img src="https://via.placeholder.com/600?text=Banana" alt="">
-            </div>
-            <figcaption class="product-caption">
-               <div class="product-price">&dollar;15</div>
-               <div class="product-title">Banana</div>
-            </figcaption>
-         </figure>
 
-         <hr>
+   <div class="container" id="tables">
+      <div class="card flat">
+         <h2>Tables</h2>
+         <h6>(not sure if I need these but whatever)</h6>
+         <br>
 
-         <div class="grid gap product-list">
-            <div class="col-xs-12 col-md-4">
-               <figure class="product">
-                  <div class="product-image">
-                     <img src="https://via.placeholder.com/600?text=Banana" alt="">
-                  </div>
-                  <figcaption class="product-caption">
-                     <div class="product-price">&dollar;15</div>
-                     <div class="product-title">Banana</div>
-                  </figcaption>
-               </figure>
-            </div>
-            <div class="col-xs-12 col-md-4">
-               <figure class="product">
-                  <div class="product-image">
-                     <img src="https://via.placeholder.com/600?text=Banana" alt="">
-                  </div>
-                  <figcaption class="product-caption">
-                     <div class="product-price">&dollar;15</div>
-                     <div class="product-title">Banana</div>
-                  </figcaption>
-               </figure>
-            </div>
-            <div class="col-xs-12 col-md-4">
-               <figure class="product">
-                  <div class="product-image">
-                     <img src="https://via.placeholder.com/600?text=Banana" alt="">
-                  </div>
-                  <figcaption class="product-caption">
-                     <div class="product-price">&dollar;15</div>
-                     <div class="product-title">Banana</div>
-                  </figcaption>
-               </figure>
-            </div>
-         </div>
+         <h3>Standard Table</h3>
+         <script>makeTable("table")</script>
+
+         <h3>Striped Table</h3>
+         <script>makeTable("table striped")</script>
+
+         <h3>Lined Hoizontal Table</h3>
+         <script>makeTable("table lined horizontal")</script>
+
+          <h3>Lined Vertical Table</h3>
+         <script>makeTable("table lined vertical")</script>
+
+         <h3>Lined both Table</h3>
+         <script>makeTable("table lined horizontal vertical")</script>
+
+         <h3>Lined outline Table</h3>
+         <script>makeTable("table lined outline")</script>
+
+         <h3>Lined outline striped Table</h3>
+         <script>makeTable("table lined outline striped")</script>
+
+         <h3>Lined all Table</h3>
+         <script>makeTable("table lined all")</script>
       </div>
    </div>
+
+
+	</div>
+</div>
+
+
+
    
 
 

@@ -12,3 +12,9 @@
 ### Project Links 
 - http://cynthiayu.com/aau/wnm608/yu.cynthia/recipe
 - http://cynthiayu.com/aau/wnm608/yu.cynthia/index.html
+
+### Remember This!!!
+- git add .
+- git stutas
+- git commit -m"type something here"
+- git push origin main

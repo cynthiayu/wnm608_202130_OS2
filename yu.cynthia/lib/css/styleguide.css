@@ -356,7 +356,10 @@ a.text-link {
    object-fit: cover;
    background-repeat: no-repeat;
 }
-
+.image-large{
+   object-fit: ;
+   background-repeat: no-repeat;
+}
 
 /* Media Image */
 .media-image {
@@ -367,7 +370,7 @@ a.text-link {
 
 /* WELL */
 .well {
-   background-color:var(--color-neutral-light);
+   background-color:var(--color-neutral-lighter);
    padding:0.5em;
    border-radius:0.5em;
 }

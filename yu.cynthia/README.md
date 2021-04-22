@@ -15,6 +15,6 @@
 
 ### Remember This!!!
 - git add .
-- git stutas
+- git status
 - git commit -m"type something here"
 - git push origin main

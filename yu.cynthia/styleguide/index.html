@@ -199,26 +199,25 @@
 
          <h3>Other Examples</h3>
 
-         <h4>Grid</h4>
+         <h4>Gallery Grid</h4>
          <div class="grid gap">
-            <div class="col-xs-12 col-md-6">
-               <img src="https://via.placeholder.com/600" class="media-image" alt="">
-            </div>
+           <!--  <div class="col-xs-12 col-md-6">
+               <img class="image-cover" src="img/fashion/web1.jpg" alt="">
+            </div> -->
+
             <div class="col-xs-12 col-md-6">
                <div class="grid gap">
-                  
                   <div class="col-xs-12 col-sm-6">
-                     <img src="https://via.placeholder.com/600" class="media-image" alt="">
+                     <img class="image-cover" src="img/fashion/web1.jpg" alt="">
                   </div>
                   <div class="col-xs-12 col-sm-6">
-                     <img src="https://via.placeholder.com/600" class="media-image" alt="">
+                     <img class="image-cover" src="img/fashion/web1.jpg" alt="">
                   </div>
                   <div class="col-xs-12 col-sm-6">
-                     <img src="https://via.placeholder.com/600" class="media-image" alt="">
+                     <img class="image-cover" src="img/fashion/web1.jpg" alt="">
                   </div>
                   <div class="col-xs-12 col-sm-6">
-                     <img src="https://via.placeholder.com/600" class="media-image" alt="">
-                     <div>text</div>
+                     <img class="image-cover" src="img/fashion/web1.jpg" alt="">
                   </div>
                </div>
             </div>
@@ -349,8 +348,8 @@
 				</div>
 			</div>		
 			<div class="col-lg-3 col-md-6 col-xs-12">
-				<p class="text-center">Card</p>
-				<div class="card highlight">
+				<p class="text-center">Card soft</p>
+				<div class="card soft">
 					<div class="display-flex flex-justify-center">
 						<img class="image-cover " src="img/fashion/web9.jpg" alt="">
 					</div>
@@ -396,7 +395,7 @@
 
    <script>
 const makeNav = (classes='') => {
-   const links = ['home','store','about','cart'];
+   const links = ['WOMEN','MEN','ALL','SEARCH'];
    document.write(`
    <div>
    <nav class="${classes}">
@@ -414,12 +413,12 @@ const makeNav = (classes='') => {
       <div class="card flat">
          <h2>Navigations</h2>
 
-         <h3>Basic Nav</h3>
+        <!--  <h3>Basic Nav</h3>
          <div class="grid">
             <div class="col-4">
-               <nav class="nav">
+               <nav class="nav"> -->
                   <!-- ul>li*4>a[href=#]>{Link $} -->
-                  <ul>
+                  <!-- <ul>
                      <li><a href="#">Link 1</a></li>
                      <li><a href="#">Link 2</a></li>
                      <li><a href="#">Link 3</a></li>
@@ -431,7 +430,7 @@ const makeNav = (classes='') => {
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas, saepe accusamus beatae fugiat assumenda excepturi adipisci, nemo odio doloribus nobis iure architecto earum non aspernatur possimus dolores reprehenderit rerum perspiciatis animi eveniet ea eius omnis. Ratione, omnis, nihil corporis deserunt, deleniti laborum ad vel totam, quisquam quod esse animi.</p>
                <p>Eos nemo, reprehenderit reiciendis totam itaque ut officia saepe necessitatibus tempora doloribus nesciunt sequi quos a. Laborum voluptate ducimus labore, unde perspiciatis enim quia animi commodi veritatis praesentium illum, corporis. Id, soluta. Repellendus tenetur, ipsam impedit nihil, quod accusantium. Repellat accusantium dolorum amet itaque quis aut voluptas delectus doloremque pariatur.</p>
             </div>
-         </div>
+         </div> -->
 
           <h3>Basic Nav</h3>
          <div class="grid">
@@ -447,6 +446,7 @@ const makeNav = (classes='') => {
 
          <h3>Breadcrumb Nav</h3>
          <script>makeNav(" crumbs")</script>
+         <br>
 
 <!-- 
            <h3>Flex Nav</h3>
@@ -461,6 +461,7 @@ const makeNav = (classes='') => {
 
           <h3>Flex Nav</h3>
          <script>makeNav("nav flex")</script>
+         <br>
 
 
 
@@ -477,6 +478,7 @@ const makeNav = (classes='') => {
  -->
           <h3>Stretch Nav</h3>
          <script>makeNav("nav stretch")</script>
+         <br>
 
 
 
@@ -485,15 +487,15 @@ const makeNav = (classes='') => {
          <header class="navbar">
             <div class="container display-flex flex-align-center" >
                <div class="flex-none">
-                  <h1>Title</h1>
+                  <h1>Logo</h1>
                </div>
                <div class="flex-stretch"></div>
                <nav class="nav flex flex-none">
                   <ul>
                      <!-- li*3>a[href=#]>{Link $} -->
-                     <li><a href="#">Link 1</a></li>
-                     <li><a href="#">Link 2</a></li>
-                     <li><a href="#">Link 3</a></li>
+                     <li><a href="#">WOMEN</a></li>
+                     <li><a href="#">MEN</a></li>
+                     <li><a href="#">ALL</a></li>
                   </ul>
                </nav>
             </div>
@@ -501,16 +503,16 @@ const makeNav = (classes='') => {
       </div>
    </div>
 
-         <header class="navbar">
+      <!--    <header class="navbar">
             <div class="container display-flex flex-align-center">
                <div class="flex-none">
                   <h1>Title</h1>
                </div>
                <div class="flex-stretch"></div>
                <nav class="nav flex flex-none">
-                  <ul>
+                  <ul> -->
                      <!-- li*3>a[href=#]>{Link $} -->
-                     <li><a href="#">Link 1</a></li>
+                     <!-- <li><a href="#">Link 1</a></li>
                      <li><a href="#">Link 2</a></li>
                      <li><a href="#">Link 3</a></li>
                   </ul>
@@ -518,12 +520,12 @@ const makeNav = (classes='') => {
             </div>
          </header>
 
-         <hr>
+         <hr> -->
 
    <header class="navbar">
       <div class="container display-flex flex-align-center">
          <div class="flex-none">
-            <h1>Title</h1>
+            <h1>Logo</h1>
          </div>
          <div class="flex-stretch"></div>
          <div class="flex-none">
@@ -533,6 +535,39 @@ const makeNav = (classes='') => {
       </div>
    </header>
 
+   <br><br>
+
+
+<header class="navbar">
+		<div class="container display-flex ">
+			<div class="flex-align-center justify-content-center">
+				<h1 class="logo">Logo</h1>
+			</div>
+		
+
+		<div class="flex-stretch"></div>
+		
+	<nav class="nav flex-none">
+		<ul class="display-flex">
+			<li><a href="#article5">LOGIN</a></li>
+			<li><a href="#article6">SHOPPING BAG</a></li>
+		</ul>
+	</nav>
+	</div>
+
+	<div class="container">
+
+	<!-- nav.nav>ul>li*4>a[href=#article$]>{link $} -->
+	<nav class="nav flex-stretch">
+		<ul class="display-flex">
+			<li><a href="#article1">WOMEN</a></li>
+			<li><a href="#article2">MEN</a></li>
+			<li><a href="#article3">ALL</a></li>
+			<li><a href="#article4">SEARCH</a></li>
+		</ul>
+	</nav>
+	</div>
+	</header>
 
   
 
@@ -650,6 +685,14 @@ const makeNav = (classes='') => {
 		
    		</div>
    </div>
+
+   <br><br>
+
+   <div class="view-window-opening display-flex flex-align-center flex-justify-center" style="background-image: url(https://hips.hearstapps.com/hbz.h-cdn.co/assets/15/39/1442852721-hbz-go-bold-index.jpg)">
+         <h1 class="card flat">View Window</h1>
+    </div>
+
+
 <script>
 const makeTable = (classes='') => {
    const head = ['ID','Office','Name','Email','Phone'];
@@ -712,6 +755,27 @@ const makeTable = (classes='') => {
 	</div>
 </div>
 
+  <br><br>  <br><br>
+<footer class="navbar" id="article4">
+		<div class="container display-flex flex-align-center">
+			<div class="flex-none">
+				<h2>Contact Us</h2>
+			</div>
+		
+
+		<div class="flex-stretch"></div>
+
+		<nav class="nav flex-none">
+		<ul class="display-flex">
+			<li><a href="#">Instagram</a></li>
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">Locations</a></li>
+			<li><a href="#">(415)123-4567</a></li>
+		</ul>
+		</nav>
+		</div>
+
+	</footer>
 
 
    

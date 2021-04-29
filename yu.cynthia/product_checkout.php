@@ -1,3 +1,9 @@
+<?php
+
+include "lib/php/functions.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
